@@ -1,7 +1,11 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+    <div class="logos">
+      <img alt="Vue logo" src="./assets/vuelogo.png">
+      <img alt="Typescript logo" src="./assets/tslogo.png">
+      <img alt="Rhino logo" src="./assets/rhinologo.png">
+    </div>
+    <HelloWorld msg="Vue.js + TypeScript + rhino3dm.js"/>
   </div>
 </template>
 
@@ -25,5 +29,10 @@ export default Vue.extend({
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.logos > img {
+  height: 200px;
+  margin-right: 30px;
 }
 </style>
